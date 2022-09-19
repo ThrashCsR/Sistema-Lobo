@@ -1,0 +1,148 @@
+:root{
+
+	--orange:#f8921d;
+	--warm-black:#201E1C;
+	--black:#282623;
+	--low-black:#4b4949;
+	--off-white:#FAF8F7;
+	--just-white:#FFFFFF;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Rubik', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    background-color: var(--just-white);
+}
+
+h1{
+    color:var(--low-black);
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    color: var(--orange);
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    min-width: 320px;
+    height: auto;
+    background-color: rgba(128, 128, 128, 0.178);
+    border-radius: 2px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+h3{
+    
+    color: var(--warm-black);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 10px 0 10px 0;
+    text-align: center;
+
+}
+
+p{
+
+    color: var(--low-black);
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.redes{
+    display: flex;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.redes p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;  
+    color: var(--just-white);
+    text-align: center;
+    width: 150px;
+    height: auto;
+    margin: 0 5px 0 5px;
+    background-color: #1da1f2;
+    padding: 10px;
+    border-radius: 4px;
+ 
+    
+}
+
+.redes p:last-child{
+
+    background-color: #1778f2;
+   
+}
+.redes img{
+    width: 20px;
+    height: 20px;
+    margin-left:5px;
+}
+
+a{
+
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    color: var(--just-white);
+    width: 120px;
+    height: auto;
+    margin: 40px 5px 0 5px;
+    background-color:var(--black);
+    padding: 10px;
+    border-radius: 4px;
+    justify-self: center;
+
+}
+
+@media (min-width: 880px) {
+
+    .content-box{
+
+        width: 40%;     
+    
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .content-box{
+
+        width: 30%;     
+    
+    }
+}
