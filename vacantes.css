@@ -94,8 +94,9 @@ main{
     color: var(--off-white);
 }
 
-button{
+.button{
 	align-self: center;
+	text-align: center;
 	width: 160px;
 	height:30px;
 	margin: 20px 10px 10px 10px ;
@@ -107,13 +108,12 @@ button{
     font-weight: 500;
     cursor: pointer;
     color: var(--off-white);
-    background-color: var(--black);
-   
+    background-color: var(--black);  
 }
 
    
 .form button:hover{
-    color:var(--soft-blue);
+    color:var(--warm-black);
 }
 
 
@@ -151,9 +151,29 @@ footer{
 	color: var(--just-white);
 }
 
+.contact{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	
+}
+.contact p, a{
+	justify-self: center;
+	font-size: 1.3rem;
+	color: var(--just-white);
+	text-decoration:none;
+	
+}
 
+.contact-social{
+	display:inline-block ;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
 
-.contact img{
+.contact-social img{
 	
 	background-position: center;
 	background-repeat: no-repeat;
@@ -162,34 +182,4 @@ footer{
 	height: 18px;	
 	vertical-align: bottom;
 	margin-right:4px;
-}
-
-.contact{
-	
-	display:flex;
-	margin-top:20px;	
-}
-
-.contact-right{
-	display:flex ;
-	width: 50%;
-	align-items:center ;
-	justify-content: center;
-	
-}
-
-.contact-left{
-	display:flex ;
-	width: 50%;
-	align-items:center ;
-	justify-content: center;
-}
-
-
-
-.contact p{
-	justify-self: center;
-	font-size: 1.3rem;
-	color: var(--just-white);
-	
 }

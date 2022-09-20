@@ -124,12 +124,30 @@ footer{
 }
 
 .contact{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
 	
-	display:flex;
-	margin-top:20px;	
 }
 
-.contact img{
+.contact-social{
+	display:inline-block ;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+
+.contact p, a{
+	justify-self: center;
+	font-size: 1.3rem;
+	color: var(--just-white);
+	text-decoration:none;
+	
+}
+
+.contact-social img{
 	
 	background-position: center;
 	background-repeat: no-repeat;
@@ -138,30 +156,6 @@ footer{
 	height: 18px;	
 	vertical-align: bottom;
 	margin-right:4px;
-}
-
-.contact-right{
-	display:flex ;
-	width: 50%;
-	align-items:center ;
-	justify-content: center;
-	
-}
-
-.contact-left{
-	display:flex ;
-	width: 50%;
-	align-items:center ;
-	justify-content: center;
-}
-
-
-
-.contact p{
-	justify-self: center;
-	font-size: 1.3rem;
-	color: var(--just-white);
-	
 }
 
 

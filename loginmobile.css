@@ -34,6 +34,92 @@ header img{
 	height: auto;
 }
 
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    width: 100%;
+    min-width: 320px;
+	height: auto;
+}
+
+.login{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.login img{
+	margin-top: 20px;
+	width: 120px;
+	height: 120px;
+}
+
+h1{
+	font-weight: bold;
+    font-size: 1.8rem;
+    color: var(--warm-black);
+}
+
+.form{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    margin-top: 30px;
+
+}
+
+.form label{
+    font-size: 1.5rem;
+	font-weight: 500;
+    color: rgb(54, 54, 54);
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+.form p{
+    font-size: 1.4rem;
+    color:rgba(72, 65, 78, 0.856);
+    margin-top:20px;
+ 
+}
+
+.form input{
+    font-size: 1.4rem;
+    color: rgb(54, 54, 54);
+    border: 1px solid  var(--black);
+    box-shadow: 0px 2px 4px rgba(3, 3, 3, 0.356);
+    border-radius: 6px;
+	width: auto;
+    height: 24px;
+    padding: 6px;
+    text-align: center;
+    
+}
+
+.form a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+    color: var(--just-white);
+    width: 120px;
+    height: auto;
+    margin-top: 30px;
+    background-color:var(--black);
+    padding: 10px;
+    border-radius: 4px;
+    justify-self: center;
+	cursor: pointer;
+
+}
+
+.form a:hover{
+    color:var(--soft-blue);
+}
+
 footer{		
 	position: absolute;
 	bottom: 0;
@@ -83,121 +169,37 @@ footer{
 }
 
 .contact{
-	
-	display:flex;
-	margin-top:20px;	
-}
-
-.contact-right{
-	display:flex ;
-	width: 50%;
-	align-items:center ;
+	display: flex;
+	align-items: center;
 	justify-content: center;
+	margin-top: 20px;
 	
 }
-
-.contact-left{
-	display:flex ;
-	width: 50%;
-	align-items:center ;
-	justify-content: center;
-}
-
-
-
-.contact p{
+.contact p, a{
 	justify-self: center;
 	font-size: 1.3rem;
 	color: var(--just-white);
+	text-decoration:none;
 	
 }
 
-.main-login{
+.contact-social{
+	display:inline-block ;
+	margin-left: 10px;
+	margin-right: 10px;
 	
-    width: 100%;
-    min-width: 320px;
-    height:80vh;
-	padding-bottom: 20px;
 }
 
-.login{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-
-}
-
-.login img{
-	margin-top: 20px;
-	width: 120px;
-	height: 120px;
-}
-
-h1{
-	font-weight: bold;
-    font-size: 1.8rem;
-    color: var(--warm-black);
-}
-
-.form{
-    display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-    margin-top: 30px;
-
-}
-
-.form label{
-    font-size: 1.5rem;
-	font-weight: 500;
-    color: rgb(54, 54, 54);
-    margin-top:8px;
-    margin-bottom:8px;
-}
-
-.form label:last-child{
-    font-size: 1.4rem;
-    color:rgba(72, 65, 78, 0.856);
-    margin-top:20px;
- 
-}
-
-.form input{
-    font-size: 1.4rem;
-    color: rgb(54, 54, 54);
-    border: 1px solid  var(--black);
-    box-shadow: 0px 2px 4px rgba(3, 3, 3, 0.356);
-    border-radius: 6px;
-	width: auto;
-    height: 24px;
-    padding: 6px;
-    text-align: center;
-    
-}
-
-.form a{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-decoration: none;
-    margin-top: 16px;
-    width: 100px;
-    height: 30px;
-    border-radius: 4px;
-    border: none;
-    box-shadow: 0px 3px 4px rgba(48, 44, 44, 0.582);
-    font-size: 1.4rem;
-    font-weight: 500;
-    cursor: pointer;
-    color: var(--off-white);
-    background-color: var(--black);
-
+.contact-social img{
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	width: 18px;
+	height: 18px;	
+	vertical-align: bottom;
+	margin-right:4px;
 }
 
 
 
-.form button:hover{
-    color:var(--soft-blue);
-}
