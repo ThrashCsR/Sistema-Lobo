@@ -41,7 +41,7 @@ main{
 	justify-content: center;
     width: 100%;
     min-width: 320px;
-	height: auto;
+	height: 700px;
 }
 
 .login{
@@ -121,24 +121,19 @@ h1{
 }
 
 footer{		
-	position: absolute;
-	bottom: 0;
 	width: 100%;
 	min-width: 320px;
 	height: auto;
 	background: linear-gradient(180deg, var(--warm-black) 26.9%, var(--black)  100%);
 	border-top: groove 1px rgba(29, 4, 70, 0.904);
-	}
-
+}
 
 .footer	{
 	display: flex;
 	justify-content: center;
 	width: 100%;	
 	margin-top: 10px;
-
-
-}	
+}
 
 .footer p{
 
