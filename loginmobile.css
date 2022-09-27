@@ -41,7 +41,7 @@ main{
 	justify-content: center;
     width: 100%;
     min-width: 320px;
-	height: 700px;
+	height:100vh;
 }
 
 .login{
@@ -52,7 +52,7 @@ main{
 }
 
 .login img{
-	margin-top: 20px;
+	
 	width: 120px;
 	height: 120px;
 }
